@@ -1,0 +1,19 @@
+DisableHotkey:
+  0:
+    Enable: false
+    Hotkey: Ctrl+C
+  1:
+    Enable: false
+    Hotkey: Ctrl+V
+  2:
+    Enable: false
+    Hotkey: '1'
+  4:
+    Enable: true
+    Hotkey: ''
+  7:
+    Enable: true
+    Hotkey: ''
+IsDisableHotkey: 2
+IsDisplayIcon: 2
+IsSelfStarting: 0

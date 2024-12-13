@@ -1,0 +1,12 @@
+AddHotkeyButton
+
+IsDisableHotkey
+IsSelfStarting
+IsDisplayIcon
+
+SelectAllButton
+InvertButton
+
+SaveAndRebootButton
+
+Reward
