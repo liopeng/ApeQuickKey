@@ -24,6 +24,9 @@
 
 - **python监控按键/快捷键/鼠标**
   - [python监控按键/快捷键/鼠标](https://blog.csdn.net/m0_74389553/article/details/144476696?fromshare=blogdetail&sharetype=blogdetail&sharerId=144476696&sharerefer=PC&sharesource=m0_74389553&sharefrom=from_link)
+- **Windows系统-Python获取当前资源管理器路径及打开控制台、资源管理器到指定路径的方法**
+  - [Windows系统-Python获取当前资源管理器路径及打开控制台、资源管理器到指定路径的方法](https://blog.csdn.net/m0_74389553/article/details/144492444?fromshare=blogdetail&sharetype=blogdetail&sharerId=144492444&sharerefer=PC&sharesource=m0_74389553&sharefrom=from_link)
+
 
 
 
