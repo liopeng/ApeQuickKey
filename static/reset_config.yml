@@ -1,0 +1,45 @@
+page1:
+  isSelfStarting: false
+  isDisplayIcon: true
+
+  isEnableConsoleHotKey: true
+  isEnableResourceManagerHotKey: true
+
+page2:
+  consoleHotKeyType: 2
+  resourceManagerHotKeyType: 3
+
+  consoleHotKeyEdit: ''
+  resourceManagerHotKeyEdit: ''
+
+  isHotKeyAbsolute: false
+
+page3:
+  consolePathEdit: C:/Users/Administrator/Downloads/
+  resourceManagerPathEdit: C:/Users/Administrator/Downloads/
+
+  isEnableCurrentConsolePath: true
+  isEnableCurrentResourceManagerPath: true
+
+page4:
+  disableHotkey:
+    0:
+      enable: false
+      hotkey: Ctrl+C
+    1:
+      enable: false
+      hotkey: Ctrl+V
+
+  isDisableHotkey: false
+
+page5:
+  isDisableLeftClick: false
+  isDisableRightClick: false
+
+  isDisableMiddleClick: false
+  isDisableWheel: false
+
+  isDisableX1Click: false
+  isDisableX2Click: false
+
+  isDisableMouse: false

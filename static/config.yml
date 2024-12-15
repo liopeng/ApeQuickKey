@@ -1,19 +1,36 @@
-DisableHotkey:
-  0:
-    Enable: false
-    Hotkey: Ctrl+C
-  1:
-    Enable: false
-    Hotkey: Ctrl+V
-  2:
-    Enable: false
-    Hotkey: '1'
-  4:
-    Enable: true
-    Hotkey: ''
-  7:
-    Enable: true
-    Hotkey: ''
-IsDisableHotkey: 2
-IsDisplayIcon: 2
-IsSelfStarting: 0
+page1:
+  isDisplayIcon: true
+  isEnableConsoleHotKey: true
+  isEnableResourceManagerHotKey: true
+  isSelfStarting: false
+page2:
+  consoleHotKeyEdit: Ctrl+V
+  consoleHotKeyType: 1
+  isHotKeyAbsolute: 2
+  resourceManagerHotKeyEdit: Ctrl+C
+  resourceManagerHotKeyType: 1
+page3:
+  consolePathEdit: C:/Users/Administrator/Videos
+  isEnableCurrentConsolePath: 2
+  isEnableCurrentResourceManagerPath: 2
+  resourceManagerPathEdit: C:/Users/Administrator/Documents
+page4:
+  disableHotkey:
+    0:
+      enable: true
+      hotkey: Ctrl+C
+    1:
+      enable: true
+      hotkey: Ctrl+V
+    2:
+      enable: true
+      hotkey: '3'
+  isDisableHotkey: 0
+page5:
+  isDisableLeftClick: false
+  isDisableMiddleClick: false
+  isDisableMouse: false
+  isDisableRightClick: false
+  isDisableWheel: false
+  isDisableX1Click: false
+  isDisableX2Click: false
