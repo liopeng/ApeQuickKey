@@ -257,7 +257,7 @@ class MainWindow(QMainWindow):
         old_config = load_yml(config_path)
         if (
             str(sys.argv[0])[-4:] == ".exe"
-            and self.config["isSelfStarting"] != old_config["isSelfStarting"]
+            and self.config["page1"]["isSelfStarting"] != old_config["page1"]["isSelfStarting"]
         ):
             print("自启动修改")
             key = r"Software\Microsoft\Windows\CurrentVersion\Run"
@@ -267,7 +267,7 @@ class MainWindow(QMainWindow):
             with reg.OpenKey(
                 reg.HKEY_CURRENT_USER, key, 0, reg.KEY_ALL_ACCESS
             ) as reg_key:
-                if self.config["isSelfStarting"]:
+                if self.config["page1"]["isSelfStarting"]:
                     reg.SetValueEx(reg_key, app_name, 0, reg.REG_SZ, app_path)
                 else:
                     try:
